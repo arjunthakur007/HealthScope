@@ -1,0 +1,30 @@
+# Node.js and Package Manager specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.eslintcache
+
+# Environment variables (CRITICAL for security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build/Output directories (if your backend compiles anything, though less common for simple Node.js)
+build/
+dist/
+
+# Logs and temporary files
+logs/
+*.log
+
+# Editor/IDE specific files and directories
+.vscode/
+!.vscode/extensions.json # Keep this line if you want to share recommended VS Code extensions
+.idea/
+.DS_Store # For macOS users
+Thumbs.db # For Windows users
+
+# Vercel specific (if you build/deploy backend from its own directory)
+.vercel/ # Add this here too, as Vercel might create it in the backend repo's root
