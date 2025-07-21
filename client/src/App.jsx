@@ -7,14 +7,14 @@ import { Toaster } from "react-hot-toast";
 
 import Registration from "./pages/admin/Registration.jsx";
 import Navbar from "./componenets/Navbar.jsx";
-import ReceptionLayout from "./pages/Reception/ReceptionLayout.jsx";
-import PatientList from "./pages/Reception/PatientList.jsx";
-import AddPatient from "./pages/Reception/AddPatient.jsx";
-import DoctorLayout from "./pages/Doctor/DoctorLayout.jsx";
-import Appointment from "./pages/Doctor/Appointment.jsx";
-import PatientLog from "./pages/Doctor/PatientLog.jsx";
-import PatientProfile from "./pages/Doctor/PatientProfile.jsx";
-import PaymentsPage from "./pages/Reception/PaymentsPage.jsx";
+import ReceptionLayout from "./pages/reception/ReceptionLayout.jsx";
+import PatientList from "./pages/reception/PatientList.jsx";
+import AddPatient from "./pages/reception/AddPatient.jsx";
+import DoctorLayout from "./pages/doctor/DoctorLayout.jsx";
+import Appointment from "./pages/doctor/Appointment.jsx";
+import PatientLog from "./pages/doctor/PatientLog.jsx";
+import PatientProfile from "./pages/doctor/PatientProfile.jsx";
+import PaymentsPage from "./pages/reception/PaymentsPage.jsx";
 
 const App = () => {
   const { showLogin, loggedInStaff, loading } = useAppContext();
