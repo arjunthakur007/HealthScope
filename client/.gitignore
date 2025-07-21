@@ -7,29 +7,16 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies
-node_modules/
-
-# Build/Output directories (Adjust if your build output is named differently, e.g., 'build')
-dist/       # Common for Vite build output
-dist-ssr/   # Vite SSR output
-build/      # Common for Create React App build output
-out/        # Another possible build output directory
-
-# Environment variables (CRITICAL for security - for frontend specific env files)
-.env        # Generic .env file
-.env.local
-.env.*.local # Catches .env.development.local, .env.production.local etc.
-
-# Vercel specific files/directories
-.vercel/    # Vercel CLI configuration/cache directory
+node_modules
+dist
+dist-ssr
+*.local
 
 # Editor directories and files
-.vscode/
-!.vscode/extensions.json # Keep this line if you want to share recommended VS Code extensions
-.idea/      # For JetBrains IDEs like WebStorm, IntelliJ
-.DS_Store   # For macOS users
-Thumbs.db   # For Windows users
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj

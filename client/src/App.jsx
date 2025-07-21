@@ -20,10 +20,8 @@ const App = () => {
   const { showLogin, loggedInStaff, loading } = useAppContext();
 
   if (loading) {
-    
     return (
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      
         <div className="text-2xl font-semibold text-gray-700">
           Loading Application...
         </div>
